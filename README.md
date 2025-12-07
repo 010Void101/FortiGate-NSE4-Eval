@@ -1,7 +1,9 @@
 # FortiGate-NSE4-Eval
 
 ## Project Goals
-- Build a fortigate lab from scratch
+- Build a FortiGate NSE4 level lab from scratch
+- Discover everything that can be learnt using the Evaluation License of Fortigate Firewalls
+- Structure the lab architecture close to real life network designs
 
 ---
 
