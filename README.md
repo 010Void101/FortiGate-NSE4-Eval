@@ -19,7 +19,7 @@
 
 ## Architecture Diagram
 
-> ![Topology Preview](/assets/screenshots/designs/network_topology.jpg)
+> ![Topology Preview](/assets/screenshots/topology.png)
 
 ---
 
