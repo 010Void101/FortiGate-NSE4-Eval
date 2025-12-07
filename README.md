@@ -1,6 +1,29 @@
 # FortiGate-NSE4-Eval
 
+## Project Goals
+- Build a fortigate lab from scratch
 
+---
+
+## Vendors & Technologies
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Fortinet-FC1F1F?style=for-the-badge&logo=fortinet&logoColor=white"/>
+  <img src="https://img.shields.io/badge/EVE--NG-000000?style=for-the-badge&logo=gnubash&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Windows_Server-00ADEF?style=for-the-badge&logo=windows&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cisco-1D9BD1?style=for-the-badge&logo=cisco&logoColor=white" />
+</p>
+
+---
+
+## Architecture Diagram
+
+> ![Topology Preview](/assets/screenshots/designs/network_topology.jpg)
+
+---
+
+## Repository Structure
 
 ```
 Fortigate-NSE4-Eval/
