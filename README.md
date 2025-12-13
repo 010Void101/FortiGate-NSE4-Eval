@@ -21,7 +21,7 @@
 
 ## Architecture Diagram
 
-> ![Topology Preview](/assets/screenshots/topology.png)
+> ![Topology Preview](/assets/screenshots/01/topology.png)
 
 ---
 
