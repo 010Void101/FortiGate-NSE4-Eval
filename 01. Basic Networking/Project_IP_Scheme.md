@@ -1,4 +1,4 @@
-Management/Internet Network = 192.168.149.0/24
+## Management/Internet Network = 192.168.149.0/24
 
 | Port                     | IP address             |
 |--------------------------|------------------------|
@@ -15,7 +15,7 @@ Management/Internet Network = 192.168.149.0/24
 | FW5-HA2 port1 (mgmt-ip)  | 192.168.149.76         |
 
 
-ISP-1 Network = 203.0.113.0/24 (RFC 5737)
+## ISP-1 Network = 203.0.113.0/24 (RFC 5737)
 
 | Port                     | IP address             |
 |--------------------------|------------------------|
@@ -29,7 +29,7 @@ ISP-1 Network = 203.0.113.0/24 (RFC 5737)
 | NAT Pool                 | 203.0.113.185-187      |
 
 
-ISP-2 Network = 198.51.100.0/24 (RFC 5737)
+## ISP-2 Network = 198.51.100.0/24 (RFC 5737)
 
 | Port                     | IP address             |
 |--------------------------|------------------------|
@@ -37,7 +37,7 @@ ISP-2 Network = 198.51.100.0/24 (RFC 5737)
 | FW1 port5                | 198.51.100.91          |
 
 
-FW1 Lan1 Network = 10.10.0.0/24
+## FW1 Lan1 Network = 10.10.0.0/24
 
 | Port                     | IP address             |
 |--------------------------|------------------------|
@@ -48,7 +48,7 @@ FW1 Lan1 Network = 10.10.0.0/24
 | LAN1 PCs                 | 10.10.0.151-160 (dhcp) |
 
 
-FW2 Lan2 Network = 10.20.0.0/24
+## FW2 Lan2 Network = 10.20.0.0/24
 
 | Port                     | IP address             |
 |--------------------------|------------------------|
@@ -56,7 +56,7 @@ FW2 Lan2 Network = 10.20.0.0/24
 | LAN2 PCs                 | 10.20.0.201-220 (relay)|
 
 
-FW3 Lan3 Network = 10.30.0.0/24
+## FW3 Lan3 Network = 10.30.0.0/24
 
 | Port                     | IP address             |
 |--------------------------|------------------------|
@@ -64,7 +64,7 @@ FW3 Lan3 Network = 10.30.0.0/24
 | LAN3 PCs                 | 10.30.0.151-160        |
 
 
-DMZ Network = 172.16.0.0/24
+## DMZ Network = 172.16.0.0/24
 
 | Port                     | IP address             |
 |--------------------------|------------------------|
@@ -73,7 +73,7 @@ DMZ Network = 172.16.0.0/24
 | Web Server (Ubuntu)      | 172.16.0.100           |
 
 
-FW4 Lan4 Network = 10.40.0.0/24
+## FW4 Lan4 Network = 10.40.0.0/24
 
 | Port                     | IP address             |
 |--------------------------|------------------------|
@@ -89,7 +89,7 @@ FW4 Lan4 Network = 10.40.0.0/24
 | VLAN 50 Devices          | 10.40.50.191-200 (dhcp)|
 
 
-HA Network = 10.50.0.0/24
+## HA Network = 10.50.0.0/24
 
 | Port                     | IP address             |
 |--------------------------|------------------------|
