@@ -84,7 +84,6 @@ Fortigate-NSE4-Eval/
 │ └── README.md
 │
 ├── assets/
-│ ├── network-diagrams/
 │ └── screenshots/
 │
 └── LICENSE
