@@ -8,5 +8,10 @@ also present.
 ![architecture](/assets/screenshots/01/topology.png)
 
 ## Implementation
+- Bootstraping the firewalls
+- Assigning IP addresses and names on ports, DNS and default routes
+- Checking connectivity between all 3 firewalls in HQ 
 
-![fw1_interfaces](/assets/screenshots/01/fw1 interfaces.png)
+| ![fw1_interfaces](/assets/screenshots/01/fw1_interfaces.png) |
+| :--: |
+| *FW1 interfaces* |
