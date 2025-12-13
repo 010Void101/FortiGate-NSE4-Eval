@@ -32,56 +32,44 @@ Fortigate-NSE4-Eval/
 ├── README.md
 │
 ├── 01. Basic Networking/
-│ ├── interfaces/
-│ └── README.md
+│ ├── Project_IP_Scheme.md
+│ └── basic_networking.md
 │
 ├── 02. Dynamic Routing/
-│ ├── ospf/
-│ └── README.md
+│ └── dynamic_routing.md
 │
 ├── 03. DHCP and Relay Agent/
-│ ├── dhcp-server/
-│ └── README.md
+│ └── dhcp.md
 │
 ├── 04. Address Translations/
-│ ├── static-nat/
-│ └── README.md
+│ └── address_translations.md
 │
 ├── 05. Security Policies and Profiles/
-│ ├── policies/
-│ └── README.md
+│ └── profiles_and_policies.md
 │
 ├── 06. VLANs/
-│ ├── interface-vlans/
-│ └── README.md
+│ └── vlans.md
 │
 ├── 07. DoS Policy/
-│ ├── configurations/
-│ └── README.md
+│ └── dos_policy.md
 │
 ├── 08. User and Admin Authentication/
-│ ├── local-users/
-│ └── README.md
+│ └── user-admin_auth.md
 │
 ├── 09. SDWAN/
-│ ├── rules/
-│ └── README.md
+│ └── sdwan.md
 │
 ├── 10. Transparent Mode/
-│ ├── configurations/
-│ └── README.md
+│ └── transparent_vwire.md
 │
 ├── 11. Split Task VDOM/
-│ ├── split-task/
-│ └── README.md
+│ └── split_task_vdom.md
 │
 ├── 12. High Availability/
-│ ├── a-p/
-│ └── README.md
+│ └── high_availability.md
 │
 ├── 13. VPN over SDWAN/
-│ ├── ipsec-vpn/
-│ └── README.md
+│ └── vpn_sdwan.md
 │
 ├── assets/
 │ └── screenshots/
