@@ -1,5 +1,8 @@
 ## Implementation
-- 
+- Firewall policies are most crucial aspect of an NGFW
+- The security profiles used are Web, DNS, Application Control, IPS and WAF (available on evaluation license)
+- SSL inspection is also used but the already available "custom-deep-inspection" profile is modified as EVAL license only allows that
+- Anti Virus profile is not available along with few settings in the Web and IPS profiles
 
 | ![fw1_policies](/assets/screenshots/05/fw1_policies.png) |
 | :--: |
@@ -13,7 +16,8 @@
 | :--: |
 | **FW4 Policies** |
 
----
+## Web Profile Implementation
+- 
 
 | ![web](/assets/screenshots/05/web/web.png) |
 | :--: |
