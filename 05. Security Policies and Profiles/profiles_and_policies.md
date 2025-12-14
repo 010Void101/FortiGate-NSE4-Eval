@@ -31,7 +31,8 @@
 | **Web Profile Logs** |
 
 ## DNS Profile Implementation
-- 
+- Safe Search, Static Domain Filter, DNS Translations are used
+- External IP Blocklist is created on the web server in DMZ and integrated with firewall
 
 | ![dns](/assets/screenshots/05/dns/dns.png) |
 | :--: |
@@ -49,7 +50,9 @@
 | :--: |
 | **DNS Profile Logs** |
 
----
+## Application Control Profile Implementation
+- As an example Filter Overrrides is made to block Whatsapp and Facebook in social media category while letting Instagram pass
+- Similar tuning of profile can be done for other categories like the P2P or Proxies 
 
 | ![app](/assets/screenshots/05/appcontrol/app.png) |
 | :--: |
@@ -63,7 +66,10 @@
 | :--: |
 | **Application Control Profile Logs** |
 
----
+## IPS Profile Implementation
+- A simple Intrusion Prevention signature is made to block brute force alongside medium to high severity attacks
+- For IPS to work Inbound SSL inpection should be configured as the attack traffic would be inbound towards the web server
+- A very important feature the Botnet C&C settings is not allowed in the EVAL license
 
 | ![ips](/assets/screenshots/05/ips/ips.png) |
 | :--: |
@@ -77,7 +83,9 @@
 | :--: |
 | **IPS Profile Logs** |
 
----
+## WAF Profile Implementation
+- A simple profile is made to block SQL injection and Extended SQL injection
+- Web Application Firewall profile is very detailed and can be tuned a lot
 
 | ![waf](/assets/screenshots/05/waf/waf.png) |
 | :--: |
@@ -90,10 +98,4 @@
 | ![waf_logs](/assets/screenshots/05/waf/waf_logs.png) |
 | :--: |
 | **WAF Profile Logs** |
-
----
-
-SSL
-
----
 
