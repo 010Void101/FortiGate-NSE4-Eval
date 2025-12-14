@@ -8,7 +8,7 @@ also present.
 ![architecture](/assets/screenshots/01/topology.png)
 
 ## Implementation
-- Bootstraping the firewalls
+- Bootstrapping the firewalls
 - Assigning IP addresses and names on ports, DNS and default routes
 - Checking connectivity between all 3 firewalls in HQ 
 
