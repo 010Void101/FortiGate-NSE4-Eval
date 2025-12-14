@@ -3,6 +3,8 @@
 - The security profiles used are Web, DNS, Application Control, IPS and WAF (available on evaluation license)
 - SSL inspection is also used but the already available "custom-deep-inspection" profile is modified as EVAL license only allows that
 - Anti Virus profile is not available along with few settings in the Web and IPS profiles
+- Most of security profiles work when the firewall policy is set into proxy based mode instead of flow based mode
+- Secondly security profiles would require the SSL inspection already set for them to work properly
 
 | ![fw1_policies](/assets/screenshots/05/fw1_policies.png) |
 | :--: |
@@ -17,7 +19,8 @@
 | **FW4 Policies** |
 
 ## Web Profile Implementation
-- 
+- Static URL filter is used to block sites
+- Options related to FortiGuard or FortiSandbox are not allowed in EVAL license
 
 | ![web](/assets/screenshots/05/web/web.png) |
 | :--: |
@@ -27,7 +30,8 @@
 | :--: |
 | **Web Profile Logs** |
 
----
+## DNS Profile Implementation
+- 
 
 | ![dns](/assets/screenshots/05/dns/dns.png) |
 | :--: |
