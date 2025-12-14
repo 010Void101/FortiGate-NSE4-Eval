@@ -1,5 +1,8 @@
 ## Implemetation
-- 
+- Users and Admins are created in Active Directory and mapped to groups in FortiGate
+- Active Directory is integrated and a user is tested if the credentials are working fine which returns back all the information even nested groups information
+- Users or Admins groups are put into firewall policies and when accessing the internet firewall asks for authentication
+- While integrating AD an Administrator account is used however a service account should be used to decrease attack vector
 
 | ![adsrv](/assets/screenshots/08/adsrv.png) |
 | :--: |
