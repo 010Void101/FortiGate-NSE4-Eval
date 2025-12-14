@@ -1,5 +1,7 @@
-## Implementation
-- 
+## Implementation for Source NAT/PAT
+- Two IP Pools are created one for NAT and one for PAT
+- NAT does 1:1 mappings of LAN ip addresses to one of the ips from the NAT pools
+- PAT does port mappings of LAN ip addresses to different ports of ips from the PAT pools
 
 | ![fw1_ip_pools](/assets/screenshots/04/fw1_ip_pools.png) |
 | :--: |
@@ -20,6 +22,10 @@
 | ![pat_cli](/assets/screenshots/04/fw1_pat_cli.png) |
 | :--: |
 | **FW1 PAT Sessions** |
+
+## Implementation for Destination NAT
+- The Web server is present inside the 172.16.0.0/24 DMZ network
+- 
 
 | ![dnat](/assets/screenshots/04/dnat.png) |
 | :--: |
