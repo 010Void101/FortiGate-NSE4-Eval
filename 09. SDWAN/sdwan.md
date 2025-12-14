@@ -1,5 +1,8 @@
 ## Implementation
-- 
+- An SDWAN Zone is created with WAN ISP 1 and 2 ports
+- In firewall policies and routes the WAN interfaces are changed to SDWAN Zone
+- Rules and defined for SDWAN on performance SLAs
+- Packet sniffer shows the rules are working
 
 | ![sdwan](/assets/screenshots/09/sdwan.png) |
 | :--: |
