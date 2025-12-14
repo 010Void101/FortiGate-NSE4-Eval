@@ -1,5 +1,8 @@
 ## Implementation
-- 
+- High Availability cluster of two firewalls is made in Active-Passive mode
+- If active firewall goes down or either of the two monitor interfaces goes down the passive firewall will become active and traffic will not be disrupted
+- Once in Active-Passive cluster both firewalls will sync all configurations using the Heartbeat interface and passive firewall's web GUI could not open
+- A dedicated management ip is configured that will help opening the firewalls web GUI even after the sync
 
 | ![ha](/assets/screenshots/12/ha.png) |
 | :--: |
