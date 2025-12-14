@@ -25,6 +25,6 @@
 | :--: |
 | **FW4 routing table** |
 
-| ![fw4_routing](/assets/screenshots/02/fw4_dynamic_cli.png) |
+| ![fw4_routing_d](/assets/screenshots/02/fw4_dynamic_cli.png) |
 | :--: |
 | **FW4 routing database** |
