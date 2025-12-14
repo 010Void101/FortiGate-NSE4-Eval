@@ -14,4 +14,4 @@ also present.
 
 | ![fw1_interfaces](/assets/screenshots/01/fw1_interfaces.png) |
 | :--: |
-| *FW1 interfaces* |
+| **FW1 interfaces** |
