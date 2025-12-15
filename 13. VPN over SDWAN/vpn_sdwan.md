@@ -1,5 +1,8 @@
 ## Implementation
-- 
+- Normal creation of VPNs using wizard cannot be created over SD-WAN
+- For VPN over SDWAN, SDWAN Zone is created with VPN options
+- Then manual creation of Local and Remote subnets, VPN policies and routes alongwith IP addresses on tunnel interfaces
+- Ping from Local (FW1) to Remote (FW4) subnet and FW1 will show as initiator in VPN network while FW4 is the responder
 
 | ![vpn_over_sdwan](/assets/screenshots/13/vpn_over_sdwan.png) |
 | :--: |
